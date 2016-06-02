@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOMAINS=/etc/bind/domain-list
-BIND_FILE=/etc/bind/named.conf.local
+BIND_FILE=/etc/bind/named.conf.unlocated
 
 while read DOMAIN; do
     echo "zone \"${DOMAIN}\" IN {"
